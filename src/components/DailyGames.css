@@ -1,0 +1,39 @@
+.daily-games-banner {
+  background: linear-gradient(145deg, rgba(100, 108, 255, 0.1), rgba(156, 39, 176, 0.05));
+  border: 1px solid rgba(100, 108, 255, 0.3);
+  border-radius: 12px;
+  padding: 12px 20px;
+  margin: 0 auto 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 10px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  font-size: 1.05rem;
+}
+
+.daily-games-label {
+  font-weight: 800;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  white-space: nowrap;
+}
+
+.daily-games-list {
+  color: #e0e0e0;
+  font-weight: 500;
+}
+
+@media (max-width: 600px) {
+  .daily-games-banner {
+    padding: 10px 15px;
+    font-size: 0.95rem;
+    flex-direction: column;
+    text-align: center;
+    gap: 4px;
+  }
+}
+
