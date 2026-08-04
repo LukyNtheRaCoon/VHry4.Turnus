@@ -13,7 +13,7 @@ const itemVariants: Variants = {
 };
 
 // Použijeme stejné URL jako pro Cíle, ale přidáme parametr action=feedback
-const SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbwtkr96j2SkgkQOD7Qs6-XGKqBjPPm-BdiutwEEd2F4tt_gFAMqs2nfxn1KK4boTZ7Z/exec?action=feedback';
+const SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbwzeLpZzvuZnkS12FQL1_j6TkmcJM4lBqZK8zuF9oqVU2XTR3v_ICi2jGP15Q9Ro6Z62g/exec?action=feedback';
 
 const Feedback: React.FC = () => {
   const [formData, setFormData] = useState({

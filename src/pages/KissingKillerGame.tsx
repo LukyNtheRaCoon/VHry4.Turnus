@@ -25,7 +25,7 @@ const TARGETS_SHEET_URL = 'https://docs.google.com/spreadsheets/d/e/2PACX-1vQntC
 // URL pro načítání seznamu hráčů (Leaderboard)
 const PLAYERS_SHEET_URL = 'https://docs.google.com/spreadsheets/d/e/2PACX-1vQntCMPoKCiaMzKn0L1XvfK8LvqlG4pMrUFGvjPRacX7YozNaOJvlomX0hQNajBZCGqC2fo15q1nIkD/pub?output=csv';
 // URL Google Apps Scriptu pro zápis (uživatel musí doplnit po nasazení skriptu)
-const SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbwtkr96j2SkgkQOD7Qs6-XGKqBjPPm-BdiutwEEd2F4tt_gFAMqs2nfxn1KK4boTZ7Z/exec'; 
+const SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbwzeLpZzvuZnkS12FQL1_j6TkmcJM4lBqZK8zuF9oqVU2XTR3v_ICi2jGP15Q9Ro6Z62g/exec'; 
 
 const KissingKillerGame: React.FC = () => {
   const [playerName, setPlayerName] = useState('');
