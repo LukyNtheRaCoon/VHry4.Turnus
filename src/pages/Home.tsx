@@ -37,7 +37,7 @@ const Home: React.FC = () => {
       <motion.section className="hero-section" variants={itemVariants}>
         <h1>Hry pro vedoucí</h1>
         <p className="hero-description">
-          Jsme druhý turnus táboru <strong>SPT</strong> (nejlepší turnus). 
+          Jsme čtvrtý turnus táboru <strong>SPT</strong>. 
           Tento web slouží jako centrální přehled výsledků, úkolů a statistik pro naše oblíbené hry.
         </p>
       </motion.section>

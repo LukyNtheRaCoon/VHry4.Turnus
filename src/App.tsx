@@ -35,7 +35,7 @@ function App() {
       <div className="app-container">
         <header>
           <nav className="main-nav">
-            <Link to="/" className="nav-logo">SPT 2. Turnus</Link>
+            <Link to="/" className="nav-logo">SPT 4. Turnus</Link>
             <div className="nav-links">
               <Link to="/">Domů</Link>
               <Link to="/celkove-poradi">Celkové pořadí</Link>

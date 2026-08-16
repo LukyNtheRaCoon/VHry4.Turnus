@@ -10,8 +10,8 @@ export default defineConfig({
       registerType: 'autoUpdate',
       includeAssets: ['favicon.svg', 'icons.svg'],
       manifest: {
-        name: 'Hry pro vedoucí SPT 2',
-        short_name: 'SPT2 Hry',
+        name: 'Hry pro vedoucí SPT 4',
+        short_name: 'SPT4 Hry',
         description: 'Aplikace pro správu a prohlížení her na táboře',
         theme_color: '#0f1115',
         background_color: '#0f1115',
