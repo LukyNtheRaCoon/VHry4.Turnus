@@ -75,6 +75,7 @@ const Sazky: React.FC = () => {
 
   // Načtení dat při prvním otevření komponenty
   useEffect(() => {
+    // eslint-disable-next-line
     loadStateAndOdds();
   }, []);
 
@@ -155,7 +156,7 @@ const Sazky: React.FC = () => {
         const newOdds: Record<string, number> = {};
         players.forEach(p => {
           const v = Number(String(p.Vítězství || '0').replace(',', '.')) || 0;
-          let calculatedOdds = 1.2 + (maxVictories - v) * 0.6 + 0.6;
+          const calculatedOdds = 1.2 + (maxVictories - v) * 0.6 + 0.6;
           newOdds[p.Jméno.trim().toLowerCase()] = parseFloat(calculatedOdds.toFixed(2));
         });
         oddsJsonStr = JSON.stringify(newOdds);
